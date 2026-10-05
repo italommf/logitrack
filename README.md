@@ -17,15 +17,15 @@ O frontend é um só e funciona com qualquer um dos dois backends.
 
 **Dashboard:** as 5 métricas (total de KM com filtro por veículo, veículo mais utilizado, projeção financeira do mês, viagens por categoria, ranking de utilização e próximas manutenções).
 
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](docs/screenshots/dashboard.webp)
 
 **Viagens:** listagem com as ações de editar e excluir.
 
-![Lista de viagens](docs/screenshots/viagens.png)
+![Lista de viagens](docs/screenshots/viagens.webp)
 
 **Cadastro e edição de viagem:** o mesmo formulário serve para criar e editar.
 
-![Edição de viagem](docs/screenshots/editar-viagem.png)
+![Edição de viagem](docs/screenshots/editar-viagem.webp)
 
 ## Como rodar localmente
 
