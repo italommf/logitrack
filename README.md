@@ -13,6 +13,20 @@ O backend existe em duas versões com a mesma API (mesmas URLs e mesmo JSON):
 
 O frontend é um só e funciona com qualquer um dos dois backends.
 
+## Demonstração
+
+**Dashboard:** as 5 métricas (total de KM com filtro por veículo, veículo mais utilizado, projeção financeira do mês, viagens por categoria, ranking de utilização e próximas manutenções).
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+**Viagens:** listagem com as ações de editar e excluir.
+
+![Lista de viagens](docs/screenshots/viagens.png)
+
+**Cadastro e edição de viagem:** o mesmo formulário serve para criar e editar.
+
+![Edição de viagem](docs/screenshots/editar-viagem.png)
+
 ## Como rodar localmente
 
 Pré-requisitos: Docker Desktop, Python 3.12+ e Node.js 20+.
