@@ -7,9 +7,6 @@ __pycache__/
 node_modules/
 dist/
 
-# Java
-target/
-
 # Editores
 .idea/
 .vscode/

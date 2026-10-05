@@ -2,16 +2,11 @@
 
 MVP de gestão de frota: CRUD do **Módulo de Viagens** e um **Dashboard** com 5 métricas extraídas via SQL.
 
-O backend existe em duas versões com a mesma API (mesmas URLs e mesmo JSON):
-
 | Pasta | Tecnologia | Porta |
 |---|---|---|
 | `backend-python/` | Python 3.12 + Django 5.2 | 8000 |
-| `backend-java/` | Java 17+ + Spring Boot *(em desenvolvimento)* | 8080 |
 | `frontend/` | React 19 + Vite | 5173 |
 | `database/` | PostgreSQL 16 (Docker) | 5432 |
-
-O frontend é um só e funciona com qualquer um dos dois backends.
 
 ## Demonstração
 
@@ -61,11 +56,7 @@ npm run dev
 
 Com o banco, o backend e o frontend rodando (cada um em um terminal), abra o navegador em **http://localhost:5173**. O sistema abre na tela de **Dashboard**; a aba **Viagens**, no topo, leva ao cadastro.
 
-O frontend repassa as chamadas `/api` para o backend Python, na porta 8000. Para usar o backend Java (porta 8080), inicie o frontend assim:
-
-```bash
-API_URL=http://localhost:8080 npm run dev
-```
+O frontend repassa as chamadas `/api` para o backend, na porta 8000.
 
 Se a página mostrar "Não foi possível conectar ao backend.", confira se o backend está rodando e se o banco está ativo (`docker compose ps`).
 

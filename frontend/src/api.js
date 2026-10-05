@@ -1,5 +1,4 @@
 // Todas as chamadas ao backend ficam neste arquivo.
-// Os caminhos são os mesmos no backend Python e no Java.
 
 // Lê um cookie pelo nome. Usado para pegar o token CSRF que o Django envia.
 function lerCookie(nome) {
