@@ -59,7 +59,15 @@ npm install
 npm run dev
 ```
 
-Acesse http://localhost:5173.
+Com o banco, o backend e o frontend rodando (cada um em um terminal), abra o navegador em **http://localhost:5173**. O sistema abre na tela de **Dashboard**; a aba **Viagens**, no topo, leva ao cadastro.
+
+O frontend repassa as chamadas `/api` para o backend Python, na porta 8000. Para usar o backend Java (porta 8080), inicie o frontend assim:
+
+```bash
+API_URL=http://localhost:8080 npm run dev
+```
+
+Se a página mostrar "Não foi possível conectar ao backend.", confira se o backend está rodando e se o banco está ativo (`docker compose ps`).
 
 ## API
 
